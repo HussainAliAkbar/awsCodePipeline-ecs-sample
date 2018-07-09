@@ -1,9 +1,6 @@
-# Docker + Node "Hello World" Example
+# Docker + Node "Hello World" Example for Demonstrating Integration of AWS Code Pipeline with ECS 
 
-This repository gives you a quick introduction to getting docker running with Node. It is intended for the Docker beginner.
-
-You can adapt the same approach to other languages but I chose Node because it's what I use most often.
-
+Thanks [Dana Woodman](mailto:dana@danawoodman.com) for the awesome "Hello World" Example
 
 ## Setup
 
@@ -32,15 +29,3 @@ First, checkout this project locally and then follow these steps:
 - List all local images: `docker images`
 - Remove an image: `docker rmi <image-id>`
 - Remove a container: `docker rm <container-id>`
-
-
-## Further Reading
-
-- Checkout [Tutum](http://tutum.co) for hosting private docker registries and managing your infrastructure.
-  - Check out the [Tutum CLI](https://github.com/tutumcloud/cli): `brew install tutum`
-- Check out this [Docker + Tutum hello world repo](https://github.com/tutumcloud/hello-world)
-
-
-## Credits and License
-
-Put together by [Dana Woodman](mailto:dana@danawoodman.com) and released under the MIT license. Have fun!
